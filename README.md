@@ -77,3 +77,9 @@ contentRepository.findOneByUuid(uuid); // to get a specific content thanks to it
 ```
 
 In the end points, the configuration is easy to because the java code can retrieve java objects from json or xml inputs using the **@Consumes** annotation (as long as the java object has a **@XmlRootElement**). With the same idea, java object can be returned as json (or xml) using the **@Produces** annotation.
+
+In **example-javaserver/src/main/java/net/viotech/msstream/javaserver/timers/**, you can find a job which is running every *x* milliseconds, with *x* defined in the **src/resources/application.yml** file:
+```
+samplejob:
+    frequency: 20000
+```

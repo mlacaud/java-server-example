@@ -145,7 +145,7 @@
 				<artifactId>docker-maven-plugin</artifactId>
 				<version>0.3.6</version>
 				<configuration>
-					<imageName>mlacaud/javaserver</imageName>
+					<imageName>example-javaserver</imageName>
 					<dockerDirectory>${project.build.directory}/../../docker/javaserver</dockerDirectory>
 				</configuration>
 			</plugin>
