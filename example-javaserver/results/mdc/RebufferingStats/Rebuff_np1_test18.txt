@@ -1,0 +1,2 @@
+date isStopped
+1459471184310 Stop

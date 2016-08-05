@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: mddash
+  datasource:
+    url: jdbc:mysql://localhost:3306/msstream?autoReconnect=true
+    username: msstream
+    password: msstream
+    driver-class-name: com.mysql.jdbc.Driver
+    testOnBorrow: true
+    validationQuery: SELECT 1
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  jersey:
+      type: servlet
+security:
+  basic:
+    enabled: false
+server:
+    port: 9000
+samplejob:
+    frequency: 20000
+    

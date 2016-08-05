@@ -1,0 +1,4 @@
+date isStopped
+1459509270291 Stop
+1459509289543 Stop
+1459509290011 Start playing

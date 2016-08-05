@@ -1,0 +1,3 @@
+date isStopped
+1459441052352 Stop
+1459441383376 Stop

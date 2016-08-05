@@ -1,0 +1,4 @@
+date isStopped
+1459412945364 Stop
+1459413337408 Stop
+1459413343013 Start playing
