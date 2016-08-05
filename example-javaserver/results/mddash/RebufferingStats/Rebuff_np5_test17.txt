@@ -1,4 +1,0 @@
-date isStopped
-1459463372335 Stop
-1459463592945 Stop
-1459463596686 Start playing

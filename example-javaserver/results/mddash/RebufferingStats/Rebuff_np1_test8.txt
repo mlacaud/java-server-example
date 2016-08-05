@@ -1,2 +1,0 @@
-date isStopped
-1459397879385 Stop

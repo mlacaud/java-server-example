@@ -1,3 +1,0 @@
-date isStopped
-1459761167884 Stop
-1459761209950 Stop
